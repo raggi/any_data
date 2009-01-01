@@ -6,23 +6,24 @@
 
 == DESCRIPTION:
 
-FIXME (describe your package)
+Small helper which provides and IO like ruby's DATA for $0, but for any file.
 
 == FEATURES/PROBLEMS:
 
-* FIXME (list of features or problems)
+* Are you kidding?
 
 == SYNOPSIS:
 
-  FIXME (code sample of usage)
+  AnyData.new.read
+  AnyData.new(other_file).read
 
 == REQUIREMENTS:
 
-* FIXME (list of requirements)
+* Ruby
 
 == INSTALL:
 
-* FIXME (sudo gem install, anything else)
+* gem install any_data
 
 == LICENSE:
 
