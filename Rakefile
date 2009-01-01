@@ -3,7 +3,7 @@ load 'tasks/setup.rb'
 ensure_in_path 'lib'
 require 'any_data'
 
-task :default => :test
+task :default => %w(clobber manifest:create gem:spec test)
 
 PROJ.name = 'any_data'
 PROJ.authors = 'James Tucker'

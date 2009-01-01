@@ -1,5 +1,5 @@
 class AnyData < File
-  def self.version; '0.1.1'; end
+  def self.version; '0.1.2'; end
   
   class NoDataError < Exception
     attr_accessor :file

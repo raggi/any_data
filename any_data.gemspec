@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{any_data}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Tucker"]
   s.date = %q{2009-01-01}
   s.description = %q{Small helper which provides and IO like ruby's DATA for $0, but for any file.}
   s.email = %q{raggi@rubyforge.org}
-  s.extra_rdoc_files = ["History.txt"]
+  s.extra_rdoc_files = ["History.txt", "README.rdoc"]
   s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "lib/any_data.rb", "tasks/autospec.rake", "tasks/bones.rake", "tasks/gem.rake", "tasks/git.rake", "tasks/manifest.rake", "tasks/notes.rake", "tasks/post_load.rake", "tasks/rdoc.rake", "tasks/rubyforge.rake", "tasks/setup.rb", "tasks/test.rake", "test/end_data.rb", "test/helper.rb", "test/runner", "test/spec_any_data.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/raggi/any_data}
