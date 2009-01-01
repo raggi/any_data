@@ -3,6 +3,9 @@
 # This file does not define any rake tasks. It is used to load some project
 # settings if they are not defined by the user.
 
+PROJ.rdoc.main ||= PROJ.readme_file
+PROJ.rdoc.dir ||= File.join('doc', PROJ.name)
+
 PROJ.rdoc.exclude << "^#{Regexp.escape(PROJ.manifest_file)}$"
 PROJ.exclude << ["^#{Regexp.escape(PROJ.rdoc.dir)}/",
                  "^#{Regexp.escape(PROJ.rcov.dir)}/"]
@@ -32,7 +35,5 @@ PROJ.gem.files ||=
   else [] end
 
 PROJ.gem.executables ||= PROJ.gem.files.find_all {|fn| fn =~ %r/^bin/}
-
-PROJ.rdoc.main ||= PROJ.readme_file
 
 # EOF
