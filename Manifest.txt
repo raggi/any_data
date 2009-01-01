@@ -2,7 +2,6 @@ History.txt
 Manifest.txt
 README.rdoc
 Rakefile
-bin/any_data
 lib/any_data.rb
 tasks/autospec.rake
 tasks/bones.rake

@@ -19,7 +19,7 @@ PROJ = OpenStruct.new(
   :url => "\000",
   :version => ENV['VERSION'] || '0.0.0',
   :exclude => %w(tmp$ bak$ ~$ CVS \.git/ \.hg/ \.svn/ ^pkg/ ^doc/ \.DS_Store
-    \.hgignore \.gitignore \.dotest \.swp$),
+    \.hgignore \.gitignore \.dotest \.swp$ .*\.gemspec$),
   :release_name => ENV['RELEASE'],
 
   # System Defaults
